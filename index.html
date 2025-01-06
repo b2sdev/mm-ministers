@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>교회 사역자 카드</title>
+    <title>MM Ministers</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -48,6 +48,12 @@
         .contact {
             text-align: center;
         }
+        .custom-line {
+            border: none; /* Remove default border */
+            height: 2px; /* Set the height of the line */
+            background-color: lightgray; /* Set the color of the line */
+            width: 100%; /* Full width */
+        }
         @media (max-width: 600px) {
             .card {
                 width: 100%;
@@ -57,97 +63,180 @@
 </head>
 <body>
 
-<div class="container">
-    <div class="card">
-        <img src="/static/img/0x_kim.jpg" alt="김동식">
-        <div class="card-content">
-            <div class="name">김동식</div>
-            <div class="info"><a href="http://www.ycjeil.or.kr/">여천제일교회</a> (전라남도 여수시)</div>
-        </div>
-    </div>
-    <div class="card">
-        <img src="/static/img/1x_choi.png" alt="">
-        <div class="card-content">
-            <div class="name">최갑상</div>
-            <div class="info">산길중앙교회 (경기도 오산시)</div>
-        </div>
-    </div>
-    <div class="card">
-        <img src="/static/img/13_kang.jpeg" alt="강하룡">
-        <div class="card-content">
-            <div class="name">강하룡 (13)</div>
-            <div class="info"><a href="https://gongheung.com/">공흥교회</a> (경기도 양평군)</div>
-        </div>
-    </div>
-    <div class="card">
-        <img src="/static/img/13_kim.png" alt="김성섭">
-        <div class="card-content">
-            <div class="name">김성섭 (13)</div>
-            <div class="info"><a href="http://cs1970.com/">천성교회</a> (서울시 광진구)</div>
-        </div>
-    </div>
-    <div class="card">
-        <img src="/static/img/14-jin.jpg" alt="진영대">
-        <div class="card-content">
-            <div class="name">진영대 (14)</div>
-            <div class="info"><a href="http://vision111.org/">산성교회</a> (서울시 관악구)</div>
-        </div>
-    </div>
-    <div class="card">
-        <img src="/static/img/15-han.jpg" alt="한종규">
-        <div class="card-content">
-            <div class="name">한종규 (15)</div>
-            <div class="info"><a href="http://www.ycjeil.or.kr/">여천제일교회</a> (전라남도 여수시)</div>
-        </div>
-    </div>
-    <div class="card">
-        <img src="/static/img/17-yoon.jpg" alt="윤충현">
-        <div class="card-content">
-            <div class="name">윤충현 (17)</div>
-            <div class="info"><a href="http://www.jjpc.org/">장위중앙교회</a> (서울시 성북구)</div>
-        </div>
-    </div>
-    <div class="card">
-        <img src="/static/img/19_lee.png" alt="이일웅">
-        <div class="card-content">
-            <div class="name">이일웅 (19)</div>
-            <div class="info"><a href="https://www.nrjch.or.kr/">노량진교회</a> (서울시 동작구)</div>
-        </div>
-    </div>
-    <div class="card">
-        <img src="/static/img/21_lee.jpg" alt="이선경">
-        <div class="card-content">
-            <div class="name">이선경 (21)</div>
-            <div class="info"><a href="http://www.ycjeil.or.kr/">여천제일교회</a> (전라남도 여수시)</div>
-        </div>
-    </div>
-    <div class="card">
-        <img src="/static/img/22_park.jpg" alt="박아지">
-        <div class="card-content">
-            <div class="name">박아지 (22)</div>
-            <div class="info"><a href="http://jusr.org/">주사랑교회</a> (경기도 파주시)</div>
-        </div>
-    </div>
+<div>
+    <h1 style="text-align: center;">MM Ministers</h1>
+
+    <div class="container">
         <div class="card">
-        <img src="/static/img/2x_lee.png" alt="이보열">
-        <div class="card-content">
-            <div class="name">이보열</div>
-            <div class="info"><a href="https://wechurch1225.modoo.at/">우리가교회</a> (충청북도 천안시)</div>
+            <img src="/static/img/0x_kim.jpg" alt="김동식">
+            <div class="card-content">
+                <div class="name">김동식</div>
+                <div class="info"><a href="http://www.ycjeil.or.kr/">여천제일교회</a> (전라남도 여수시)</div>
+            </div>
         </div>
-    </div>
-    <div class="card">
-        <img src="/static/img/2x_lim.jpg" alt="임승주">
-        <div class="card-content">
-            <div class="name">임승주</div>
-            <div class="info"><a href="https://www.youngsei.net/">영세교회</a> (울시 중랑구)</div>
+        <div class="card">
+            <img src="/static/img/1x_choi.png" alt="">
+            <div class="card-content">
+                <div class="name">최갑상</div>
+                <div class="info">산길중앙교회 (경기도 오산시)</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/static/img/13_kang.jpeg" alt="강하룡">
+            <div class="card-content">
+                <div class="name">강하룡 (13)</div>
+                <div class="info"><a href="https://gongheung.com/">공흥교회</a> (경기도 양평군)</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/static/img/13_kim.png" alt="김성섭">
+            <div class="card-content">
+                <div class="name">김성섭 (13)</div>
+                <div class="info"><a href="http://cs1970.com/">천성교회</a> (서울시 광진구)</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/static/img/14-jin.jpg" alt="진영대">
+            <div class="card-content">
+                <div class="name">진영대 (14)</div>
+                <div class="info"><a href="http://vision111.org/">산성교회</a> (서울시 관악구)</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/static/img/15-han.jpg" alt="한종규">
+            <div class="card-content">
+                <div class="name">한종규 (15)</div>
+                <div class="info"><a href="http://www.ycjeil.or.kr/">여천제일교회</a> (전라남도 여수시)</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/static/img/17-yoon.jpg" alt="윤충현">
+            <div class="card-content">
+                <div class="name">윤충현 (17)</div>
+                <div class="info"><a href="http://www.jjpc.org/">장위중앙교회</a> (서울시 성북구)</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/static/img/19_lee.png" alt="이일웅">
+            <div class="card-content">
+                <div class="name">이일웅 (19)</div>
+                <div class="info"><a href="https://www.nrjch.or.kr/">노량진교회</a> (서울시 동작구)</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/static/img/21_lee.jpg" alt="이선경">
+            <div class="card-content">
+                <div class="name">이선경 (21)</div>
+                <div class="info"><a href="http://www.ycjeil.or.kr/">여천제일교회</a> (전라남도 여수시)</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/static/img/22_park.jpg" alt="박아지">
+            <div class="card-content">
+                <div class="name">박아지 (22)</div>
+                <div class="info"><a href="http://jusr.org/">주사랑교회</a> (경기도 파주시)</div>
+            </div>
+        </div>
+            <div class="card">
+            <img src="/static/img/2x_lee.png" alt="이보열">
+            <div class="card-content">
+                <div class="name">이보열</div>
+                <div class="info"><a href="https://wechurch1225.modoo.at/">우리가교회</a> (충청북도 천안시)</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/static/img/2x_lim.jpg" alt="임승주">
+            <div class="card-content">
+                <div class="name">임승주</div>
+                <div class="info"><a href="https://www.youngsei.net/">영세교회</a> (울시 중랑구)</div>
+            </div>
         </div>
     </div>
 
-    <div class="contact">
-        <img src="static/img/contact.jpeg" alt="contact" width="300" height="370">
-        <div>
-            <div><a href="http://www.mokmin.or.kr/">목민교회</a> 청년부 출신 사역자들의 제보를 받습니다.</div>
-            <div>(카카오톡 친구 추가)</div>
+    <hr class="custom-line">
+
+    <div class="container">
+        <div class="card">
+            <div class="card-content">
+                <div class="name">조정석 (18)</div>
+                <div class="info"><a href="https://www.youtube.com/@fundijo7862">탄자니아</a></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <div class="name">구용회 (19)</div>
+                <div class="info"><a href="https://kuchingstory.tistory.com">말레이시아</a></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <div class="name">송의정 (22)</div>
+                <div class="info">요르단</div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <div class="name">장은희</div>
+                <div class="info">인도네시아</div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <div class="name">김은진</div>
+                <div class="info">멕시코</div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="custom-line">
+
+    <div class="container">
+        <div class="card">
+            <div class="card-content">
+                <div class="name">박화정 (15)</div>
+                <div class="info"><a href="https://gongheung.com/">공흥교회</a> (경기도 양평군)</div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <div class="name">김은정 (17)</div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <div class="name">김수연 (19)</div>
+                <div class="info"><a href="https://www.seshin.org/">세신교회</a> (서울시 양천구)</div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <div class="name">김지영</div>
+                <div class="info"><a href="http://vision111.org/">산성교회</a> (서울시 관악구)</div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <div class="name">김지은</div>
+                <div class="info">영국</div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <div class="name">이선경 (21)</div>
+                <div class="info"><a href="http://www.ycjeil.or.kr/">여천제일교회</a> (전라남도 여수시)</div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="custom-line">
+
+    <div class="container">
+        <div class="contact">
+            <img src="static/img/contact.jpeg" alt="contact" width="300" height="370">
+            <div>
+                <div><a href="http://www.mokmin.or.kr/">목민교회</a> 청년부 출신 사역자들의 제보를 받습니다.</div>
+                <div>(카카오톡 친구 추가)</div>
+            </div>
         </div>
     </div>
 </div>
